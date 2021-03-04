@@ -1,25 +1,56 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Header from './components/header/Header.js';
+import About from './components/about/About.js';
+import Resume from './components/resume/Resume.js';
+import Portfolio from './components/portfolio/Portfolio.js';
+import Contact from './components/contact/Contact.js';
+import Footer from './components/footer/Footer.js';
+import ParticlesComponent from './components/particlesComponent/ParticlesComponent.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+       <Router>
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: 1
+            }}
+      >
+     {/*} <Route exact path="/" component={Header} />*/}
+        <ParticlesComponent />
+        <div
+          style={{
+            display: "block",
+            verticalAlign: "bottom",
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            zIndex: 1
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        <Route exact path="/" component={Header} />
+          <div>
+      </div>
+        </div>
+      </div>
+        </Router>
+        <About />
+        <Portfolio />
+        <Resume />
+        <Contact />
+        <Footer />
+      </div>
+     
+    );
+  }
 }
-
 export default App;
