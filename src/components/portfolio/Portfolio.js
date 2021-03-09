@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
                       Shopit
                     </h4>
                     <p className="item-folio__cat">
-                    Minimalistic e-commerce website.
+                    E-commerce website.
                     </p>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ export default class Portfolio extends Component {
                       Note Keeper
                     </h4>
                     <p className="item-folio__cat">
-                    Notes app made with React.
+                    Made with React.
                     </p>
                   </div>
                 </div>

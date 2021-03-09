@@ -25,8 +25,7 @@ export default class Resume extends Component {
                     </div>
                     <div className="timeline__desc">
                       <p>Analyzing weather (METAR, TAF, SIG WX etc.), NOTAMS, MEL requirements in order to plan safe and efficient flight.
-Filing ATC and Operational Flight Plans meeting minimums, business requirements and regulatory conditions.
-Flight watching, advising flight crew on routes, FL, restricted areas.</p>
+Filing ATC and Operational Flight Plans. Flight watching, advising flight crew on routes, FL.</p>
                     </div>
                   </div>
                   <div className="timeline__block">
@@ -49,7 +48,7 @@ Providing excellent service to first class passengers.</p>
                       <h5>Front Office Receptionist</h5>
                     </div>
                     <div className="timeline__desc">
-                      <p>Handle check-in and check-out operations. Compute bills and payments. Balance cash at the end of the shift. Resolve guest complains.</p>
+                      <p>Handle check-in and check-out operations. Compute bills and payments. Resolve guest complains.</p>
                     </div>
                   </div>
                 </div>

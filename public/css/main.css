@@ -949,10 +949,6 @@ select:-webkit-autofill:focus {
     .intro-pic::before {
         opacity: .4;
     }
-    .intro-grid {
-        top: 20%;
-        opacity: .1;
-    }
     .intro-text h3 {
         font-size: 1.8rem;
     }
@@ -974,17 +970,14 @@ select:-webkit-autofill:focus {
 }
 
 @media screen and (max-width:600px) {
+    .s-intro .row {
+        padding-left: 70px;
+    }
     .s-intro .particles {
         max-height: none;
     }
     .intro-content {
         width: auto;
-    }
-    .intro-pic {
-        left: 20%;
-    }
-    .intro-grid {
-        left: 10%;
     }
     .intro-text {
         -webkit-transform: translate3d(0, -4.8rem, 0);
@@ -995,7 +988,7 @@ select:-webkit-autofill:focus {
     }
     .intro-scroll {
         font-size: 1.1rem;
-        left: 30px;
+        left: 9rem;
     }
 }
 
@@ -1189,6 +1182,10 @@ select:-webkit-autofill:focus {
     margin-top: 0;
 }
 
+.timeline__desc p {
+    font-size: 1.7rem;
+}
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -1285,6 +1282,17 @@ select:-webkit-autofill:focus {
 }
 
 @media screen and (max-width:600px) {
+    .s-about .target-section {
+        text-align: center;
+    }
+    .s-about .row {
+        text-align: center;
+        max-width: 420px;
+        margin-left: 55px;
+    }
+    .s-about {
+        padding-bottom: 13rem;
+    }
     .about-me__buttons .column:first-child,
     .about-experience__timeline .column:first-child {
         padding-right: 10px;
@@ -1301,6 +1309,9 @@ select:-webkit-autofill:focus {
     }
     .timeline__block {
         padding-left: 4.4rem;
+    }
+    .timeline__block p {
+        font-size: 1.6rem;
     }
     .timeline__header h5 {
         font-size: 1.8rem;
@@ -1794,6 +1805,9 @@ select:-webkit-autofill:focus {
     .item-folio__cat {
         font-size: 1.5rem;
     }
+    .s-resume {
+        margin-left: 10%;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -1969,6 +1983,9 @@ select:-webkit-autofill:focus {
     }
     .contact-social ul li::before {
         display: none;
+    }
+    .contact-main a {
+        border-bottom: none;
     }
 }
 
