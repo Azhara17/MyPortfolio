@@ -1141,7 +1141,7 @@ select:-webkit-autofill:focus {
     padding-left: 5.6rem;
     padding-bottom: .8rem;
     margin-top: 2.8rem;
-    min-height: 17rem;
+    /* min-height: 17rem;*/
 }
 
 .timeline .timeline__block:last-child {
@@ -1343,10 +1343,11 @@ select:-webkit-autofill:focus {
     padding-top: 17rem;
     padding-bottom: 12rem;
     position: relative;
-    background-color: #b4606098;
+    background-color: #a55353e1;
 }
 
-.s-portfolio::before {
+
+/*.s-portfolio::before {
     content: "";
     position: absolute;
     top: 0;
@@ -1355,6 +1356,16 @@ select:-webkit-autofill:focus {
     height: 100%;
     background-color: #a55353e1;
     opacity: .85;
+}*/
+
+.s-portfolio .section-desc {
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 1.259;
+    letter-spacing: -0.05rem;
+    color: #ffffff;
+    text-align: center;
 }
 
 .s-portfolio h2 {
@@ -1485,7 +1496,6 @@ select:-webkit-autofill:focus {
     flex-direction: row;
     justify-content: center;
     padding-bottom: 5rem;
-    height: fit-content;
 }
 
 .s-skills .column .large-full {
@@ -1538,7 +1548,7 @@ select:-webkit-autofill:focus {
  * ------------------------------------------------------------------- */
 
 .s-resume {
-    padding-top: 14rem;
+    padding-top: 10rem;
     padding-bottom: 7rem;
     background-color: #ffffff;
     margin-left: 20%;
@@ -1823,18 +1833,20 @@ select:-webkit-autofill:focus {
     text-decoration: none;
 }
 
-.email-me {
+.s-contact .email-me {
     font-size: 3rem;
     font-weight: 500;
+    color: #1b7a9f;
     text-decoration: none;
 }
 
-.contact-email {
+.s-contact .contact-email a {
     font-family: "Roboto", sans-serif;
     font-size: 2.5rem;
     font-weight: 400;
     line-height: 1;
     margin: 2rem 0 8rem;
+    color: #1b7a9f;
     text-decoration: none;
 }
 
@@ -1890,6 +1902,10 @@ select:-webkit-autofill:focus {
     color: #8d8e8a;
     margin-left: 4px;
     margin-right: 4px;
+}
+
+.s-contact .section-heading {
+    color: #ffffff;
 }
 
 

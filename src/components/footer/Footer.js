@@ -4,7 +4,7 @@ export default class Footer extends Component {
     return (
       <React.Fragment>
       <footer>
-          <div className="row">
+          <div className="container">
             <div className="column large-full ss-copyright">
               <span>© Copyright Kalbaeva {new Date().getFullYear()}</span> 
             
