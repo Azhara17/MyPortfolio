@@ -5,14 +5,14 @@ export default class Portfolio extends Component {
     return (
       <React.Fragment>
       <section id="portfolio" className="s-portfolio target-section">
-          <div className="row heading-block heading-block--center" >
-            <div className="column large-full">
+          
+            <div className="column ">
               <h2 className="section-heading section-heading--centerbottom">Selected Works</h2>
               <p className="section-desc">
-                Here are some of my selected works. Feel free to 
+                Here are some of my selected works. <br/>Feel free to 
                 check them out.
               </p>
-            </div>
+            
           </div> {/* end heading-block */}
           <div className="masonry-wrap">
             <div className="masonry">
@@ -21,7 +21,7 @@ export default class Portfolio extends Component {
                 <div className="item-folio">
                   <div className="item-folio__thumb">
                     <a href="https://github.com/Azhara17/e-commerce.git" className="thumb-link" title="Go to GitHub" data-size="1050x700">
-                      <img src="images/portfolio/shopping-app.png" srcSet="images/portfolio/shopping-app.png 1x, images/portfolio/shopping-app.png@2x.jpg 2x" alt="e-commerce" />
+                      <img src="images/portfolio/shopping-app.png" srcSet="images/portfolio/shopping-app.png 1x, images/portfolio/shopping-app.png@2x.jpg 2x" alt="e-commerce" width="400" height="350"/>
                     </a>    
                   </div>
                   <div className="item-folio__text">
@@ -34,19 +34,19 @@ export default class Portfolio extends Component {
                   </div>
                 </div>
               </div> {/* end masonry__brick */}
-              <div className="masonry__brick">
+              <div className="masonry__brick" >
                 <div className="item-folio">
                   <div className="item-folio__thumb">
-                    <a href="https://github.com/Azhara17/TinDog.git" className="thumb-link" title="Go to GitHub" data-size="1050x700">
-                      <img src="images/portfolio/tindog-app.png" srcSet="images/portfolio/tindog-app.png 1x, images/portfolio/tindog-app.png@2x.jpg 2x" alt="tin-dog app" />
+                    <a href="https://dry-cove-34645.herokuapp.com/" className="thumb-link" title="Go to Heroku" data-size="1050x700">
+                      <img src="images/portfolio/todolist.png" srcSet="images/portfolio/todolist.png 1x, images/portfolio/todolist.png@2x.jpg 2x" alt="to-do-app" />
                     </a>
                   </div>
                   <div className="item-folio__text">
                     <h4 className="item-folio__title">
-                      Tindog App
+                      To-Do List App
                     </h4>
                     <p className="item-folio__cat">
-                    Tindog App Design.
+                    ToDo List App deployed on Heroku.
                     </p>
                   </div>
                 </div>
@@ -68,44 +68,25 @@ export default class Portfolio extends Component {
                   </div>
                 </div>
               </div> {/* end masonry__brick */}
-             {/*} <div className="masonry__brick" >
+              <div className="masonry__brick">
                 <div className="item-folio">
                   <div className="item-folio__thumb">
-                    <a href="https://github.com/Azhara17/Simon-game.git" className="thumb-link" title="Go to GitHub" >
-                      <img src="images/portfolio/Simon-game.png" srcSet="images/portfolio/Simon-game.png 1x, images/portfolio/Simon-game.png@2x.jpg 2x" alt="simon game" />
+                    <a href="https://github.com/Azhara17/TinDog.git" className="thumb-link" title="Go to GitHub" data-size="1050x700">
+                      <img src="images/portfolio/tindog-app.png" srcSet="images/portfolio/tindog-app.png 1x, images/portfolio/tindog-app.png@2x.jpg 2x" alt="tin-dog app" />
                     </a>
                   </div>
                   <div className="item-folio__text">
                     <h4 className="item-folio__title">
-                      Simon Game
+                      Tindog App
                     </h4>
                     <p className="item-folio__cat">
-                      Web Development
+                    Tindog App Design.
                     </p>
-                  </div>
-                  <div className="item-folio__caption">
-                    <p>Classic Simon Game.</p>
                   </div>
                 </div>
               </div> {/* end masonry__brick */}
-              <div className="masonry__brick" >
-                <div className="item-folio">
-                  <div className="item-folio__thumb">
-                    <a href="https://dry-cove-34645.herokuapp.com/" className="thumb-link" title="Go to Heroku" data-size="1050x700">
-                      <img src="images/portfolio/todolist.png" srcSet="images/portfolio/todolist.png 1x, images/portfolio/todolist.png@2x.jpg 2x" alt="to-do-app" />
-                    </a>
-                  </div>
-                  <div className="item-folio__text">
-                    <h4 className="item-folio__title">
-                      To-Do List App
-                    </h4>
-                    <p className="item-folio__cat">
-                    To-Do List App deployed on Heroku.
-                    </p>
-                  </div>
 
-                </div>
-              </div> {/* end masonry__brick */}
+              
             </div> {/* end masonry */}
           </div> {/* end masonry-wrap */}
         </section> 

@@ -4,6 +4,7 @@ import Header from './components/header/Header.js';
 import About from './components/about/About.js';
 import Resume from './components/resume/Resume.js';
 import Portfolio from './components/portfolio/Portfolio.js';
+import Skills from './components/skills/Skills.js';
 import Contact from './components/contact/Contact.js';
 import Footer from './components/footer/Footer.js';
 import ParticlesComponent from './components/particlesComponent/ParticlesComponent.js';
@@ -45,6 +46,7 @@ class App extends Component {
         </Router>
         <About />
         <Portfolio />
+        <Skills />
         <Resume />
         <Contact />
         <Footer />

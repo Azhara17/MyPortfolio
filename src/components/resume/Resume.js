@@ -62,6 +62,14 @@ Providing excellent service to first class passengers.</p>
                   <div className="timeline__block">
                     <div className="timeline__bullet" />
                     <div className="timeline__header">
+                      <p className="timeline__timeframe">January 2021</p>
+                      <h4 className="item-folio__title">London App Brewery</h4>
+                      <h5>The Complete 2021 Web Development Online Bootcamp</h5>
+                    </div>
+                  </div>
+                  <div className="timeline__block">
+                    <div className="timeline__bullet" />
+                    <div className="timeline__header">
                       <p className="timeline__timeframe">November 2019</p>
                       <h4 className="item-folio__title">Emirates Aviation University</h4>
                       <h5>Flight Dispatcher Course</h5>

@@ -4,8 +4,9 @@ export default class Contact extends Component {
     return (
       <React.Fragment>
       <div>
-      <section id="contact" className="s-contact ss-dark target-section">
-          <div className="row heading-block" >
+      <section id="contact" className="s-contact target-section">
+      <div className=" container">
+          <div  >
             <div className="column large-full">
               <h2 className="section-heading">Get In Touch</h2>
             </div>
@@ -24,10 +25,10 @@ export default class Contact extends Component {
             </div>
           </div>
           <div className="row contact-infos"  data-aos-anchor=".contact-main">
-            <div className="column large-5 medium-full contact-phone">
+            {/*<div className="column large-5 medium-full contact-phone">
               <h4>Call Me</h4>
               <a href="tel:00971526255662">+971 526 255 662</a>
-            </div>
+            </div>*/}
             <div className="column large-7 medium-full contact-social">
               <h4>Social</h4>
               <ul>
@@ -37,11 +38,11 @@ export default class Contact extends Component {
                 
               </ul>
             </div>
+            </div>
           </div> {/* end contact-infos */}
         </section> 
         </div>
-        <header id="contact">
-      </header>
+      
       </React.Fragment>
     );
   }
