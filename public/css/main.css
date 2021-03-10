@@ -715,9 +715,9 @@ select:-webkit-autofill:focus {
     .s-header {
         text-align: right;
     }
-    .header-nav-wrap {
+    /*.header-nav-wrap {
         margin-right: 36px;
-    }
+    }*/
     .header-nav-wrap .header-social {
         display: none;
     }
@@ -804,7 +804,7 @@ select:-webkit-autofill:focus {
 .particles {
     height: 100vh;
     width: 100%;
-    min-height: 792px;
+    min-height: 667px;
 }
 
 .s-intro {
@@ -1274,7 +1274,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:800px) {
     .s-about {
-        padding-top: 16rem;
+        padding-top: 8rem;
     }
     .s-about .row {
         max-width: 600px;
@@ -1288,10 +1288,11 @@ select:-webkit-autofill:focus {
     .s-about .row {
         text-align: center;
         max-width: 420px;
-        margin-left: 55px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .s-about {
-        padding-bottom: 13rem;
+        padding-bottom: 10rem;
     }
     .about-me__buttons .column:first-child,
     .about-experience__timeline .column:first-child {
@@ -1323,7 +1324,7 @@ select:-webkit-autofill:focus {
         margin-bottom: 14rem;
     }
     .s-about {
-        margin-top: 815px;
+        margin-top: 812px;
     }
     .about-me__buttons .column:first-child,
     .about-experience__timeline .column:first-child {
@@ -1341,6 +1342,13 @@ select:-webkit-autofill:focus {
     }
     .timeline__block {
         padding-left: 2.8rem;
+    }
+    .s-about .lead {
+        max-width: 280px;
+        margin-left: 5%;
+    }
+    .s-about .azhara {
+        margin-left: 7rem;
     }
 }
 
@@ -1377,6 +1385,7 @@ select:-webkit-autofill:focus {
     letter-spacing: -0.05rem;
     color: #ffffff;
     text-align: center;
+    padding: 2rem;
 }
 
 .s-portfolio h2 {
@@ -1476,6 +1485,10 @@ select:-webkit-autofill:focus {
     .portfolio-list .item-service {
         padding: 0 10px;
     }
+    .s-portfolio img {
+        width: 300px;
+        height: 280px;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -1484,6 +1497,13 @@ select:-webkit-autofill:focus {
     }
     .portfolio-list .item-service__content::before {
         font-size: 4.8rem;
+    }
+    .s-portfolio img {
+        width: 267px;
+        height: 222px;
+    }
+    .s-portfolio .section-desc {
+        padding: 0 2rem;
     }
 }
 
@@ -1544,7 +1564,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:400px) {
     .s-skills {
-        margin-top: 50rem;
+        margin-top: 10rem;
     }
     .icon {
         width: 40px;
@@ -1737,7 +1757,7 @@ select:-webkit-autofill:focus {
         margin-bottom: 40px;
     }
     .item-folio {
-        padding: 40px;
+        padding: 20px;
     }
 }
 
@@ -1745,9 +1765,6 @@ select:-webkit-autofill:focus {
     .masonry__brick {
         padding: 0 16px;
         margin-bottom: 32px;
-    }
-    .item-folio {
-        padding: 32px;
     }
 }
 
@@ -1766,9 +1783,9 @@ select:-webkit-autofill:focus {
         float: none;
         margin-bottom: 60px;
     }
-    .item-folio {
+    /*.item-folio {
         padding: 8.92% 8.92% 8.92%;
-    }
+    }*/
     .item-folio__thumb .thumb-link::after {
         width: 3.6rem;
         height: 3.6rem;
@@ -1786,6 +1803,7 @@ select:-webkit-autofill:focus {
 @media screen and (max-width:600px) {
     .masonry-wrap {
         width: auto;
+        height: auto;
         padding-left: 25px;
         padding-right: 25px;
     }

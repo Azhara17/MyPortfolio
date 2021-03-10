@@ -20,8 +20,8 @@ export default class Portfolio extends Component {
               <div className="masonry__brick">
                 <div className="item-folio">
                   <div className="item-folio__thumb">
-                    <a href="https://github.com/Azhara17/e-commerce.git" className="thumb-link" title="Go to GitHub" data-size="1050x700">
-                      <img src="images/portfolio/shopping-app.png" srcSet="images/portfolio/shopping-app.png 1x, images/portfolio/shopping-app.png@2x.jpg 2x" alt="e-commerce" width="400" height="350"/>
+                    <a href="https://github.com/Azhara17/e-commerce.git" className="thumb-link" title="Go to GitHub" >
+                      <img src="images/portfolio/shopping-app.png"  alt="e-commerce" width="400" height="350"/>
                     </a>    
                   </div>
                   <div className="item-folio__text">
@@ -37,8 +37,8 @@ export default class Portfolio extends Component {
               <div className="masonry__brick" >
                 <div className="item-folio">
                   <div className="item-folio__thumb">
-                    <a href="https://dry-cove-34645.herokuapp.com/" className="thumb-link" title="Go to Heroku" data-size="1050x700">
-                      <img src="images/portfolio/todolist.png" srcSet="images/portfolio/todolist.png 1x, images/portfolio/todolist.png@2x.jpg 2x" alt="to-do-app" />
+                    <a href="https://dry-cove-34645.herokuapp.com/" className="thumb-link" title="Go to Heroku" >
+                      <img src="images/portfolio/todolist.png"  alt="to-do-app" width="400" height="350" />
                     </a>
                   </div>
                   <div className="item-folio__text">
@@ -54,8 +54,8 @@ export default class Portfolio extends Component {
               <div className="masonry__brick" >
                 <div className="item-folio">
                   <div className="item-folio__thumb">
-                    <a href="https://github.com/Azhara17/Keeper-app.git" className="thumb-link" title="Go to GitHub" data-size="1050x700">
-                      <img src="images/portfolio/keeper-app.png" srcSet="images/portfolio/keeper-app.png 1x, images/portfolio/keeper-app.png@2x.jpg 2x" alt="keeper-app" />
+                    <a href="https://github.com/Azhara17/Keeper-app.git" className="thumb-link" title="Go to GitHub" >
+                      <img src="images/portfolio/keeper-app.png"  alt="keeper-app" width="400" height="350"/>
                     </a>
                   </div>
                   <div className="item-folio__text">
@@ -71,8 +71,8 @@ export default class Portfolio extends Component {
               <div className="masonry__brick">
                 <div className="item-folio">
                   <div className="item-folio__thumb">
-                    <a href="https://github.com/Azhara17/TinDog.git" className="thumb-link" title="Go to GitHub" data-size="1050x700">
-                      <img src="images/portfolio/tindog-app.png" srcSet="images/portfolio/tindog-app.png 1x, images/portfolio/tindog-app.png@2x.jpg 2x" alt="tin-dog app" />
+                    <a href="https://github.com/Azhara17/TinDog.git" className="thumb-link" title="Go to GitHub" >
+                      <img src="images/portfolio/tindog-app.png"  alt="tin-dog app" width="400" height="350"/>
                     </a>
                   </div>
                   <div className="item-folio__text">
