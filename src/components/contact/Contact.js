@@ -16,7 +16,7 @@ export default class Contact extends Component {
               
               <p className="section-desc">
                 Let's work together and build
-                something awesome.<br />
+                something awesome.<br /><br />
                 <a className="email-me" href="mailto:az.kalbaeva@gmail.com">Email Me</a>
                 <p className="contact-email">
                 <a href="mailto:az.kalbaeva@gmail.com">az.kalbaeva@gmail.com</a>

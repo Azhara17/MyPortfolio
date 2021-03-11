@@ -733,24 +733,23 @@ select:-webkit-autofill:focus {
         display: none;
         text-align: left;
         height: auto;
-        max-width: 574px;
         background-color: #b46060f3;
         padding: 15px 0 10px;
         z-index: 4000;
-        margin-left: 0;
+        margin: 0;
     }
-    .header-nav-wrap .header-main-nav {
+    .header-nav-wrap {
         display: none;
         padding-left: 0;
         height: auto;
         margin: 0;
-        /*border-top: 1px solid rgba(255, 255, 255, 0.05);*/
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
     }
     .header-nav-wrap .header-main-nav li {
         display: block;
         margin: 0;
         padding: 0;
-        /* border-bottom: 1px solid rgba(255, 255, 255, 0.05);*/
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
     .header-nav-wrap .header-main-nav li a {
         padding: 18px 0;
@@ -903,9 +902,6 @@ select:-webkit-autofill:focus {
 }
 
 @media screen and (max-width:1200px) {
-    .s-intro {
-        min-height: 1022px;
-    }
     .intro-content .particles {
         max-width: 1000px;
     }
@@ -974,6 +970,9 @@ select:-webkit-autofill:focus {
 @media screen and (max-width:600px) {
     .s-intro .row {
         padding-left: 70px;
+    }
+    .row {
+        margin-right: 0!important;
     }
     .s-intro .particles {
         max-height: none;
@@ -1119,7 +1118,7 @@ select:-webkit-autofill:focus {
 }
 
 .timeline .timeline__block:last-child {
-    padding-bottom: 0;
+    padding-bottom: 3rem;
 }
 
 .timeline__bullet {
@@ -1175,7 +1174,6 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:1200px) {
     .s-about {
-        margin-top: 950px;
         padding-bottom: 13rem;
         display: flex;
         flex-direction: row;
@@ -1210,7 +1208,6 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:1024px) {
     .s-about {
-        margin-top: 1366px;
         margin-bottom: 10px;
     }
     .about-me__text {
@@ -1225,7 +1222,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:900px) {
     .s-about {
-        padding-top: 2rem;
+        padding-top: 10rem;
     }
     .azhara {
         width: 180px;
@@ -1236,7 +1233,6 @@ select:-webkit-autofill:focus {
 @media screen and (max-width:800px) {
     .s-about {
         padding-top: 8rem;
-        margin-top: 1024px;
     }
     .s-about .about-me__content {
         max-width: 600px;
@@ -1249,7 +1245,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:600px) {
     .s-about {
-        padding-bottom: 10rem;
+        padding-bottom: 6rem;
     }
     .s-about .about-me__content {
         max-width: 420px;
@@ -1277,7 +1273,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:400px) {
     .s-about {
-        margin-top: 812px;
+        padding-top: 3rem;
     }
     .timeline::after {
         width: 2.8rem;
@@ -1288,15 +1284,11 @@ select:-webkit-autofill:focus {
     .timeline__block {
         padding-left: 2.8rem;
     }
-    .s-about .lead {
-        max-width: 280px;
-        margin-left: 5%;
-    }
-    .s-about .azhara {
-        margin-left: 5rem;
-    }
     .s-about .about-me__text {
         text-align: center;
+    }
+    p.lead {
+        font-size: 2rem;
     }
 }
 
@@ -1821,7 +1813,6 @@ select:-webkit-autofill:focus {
 }
 
 .s-contact .email-me {
-    font-size: 3rem;
     font-weight: 500;
     color: #1b7a9f;
     text-decoration: none;
@@ -1940,7 +1931,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:800px) {
     .s-contact {
-        padding-top: 16rem;
+        padding-top: 8rem;
     }
     .contact-email {
         font-size: 5vw;
@@ -1965,6 +1956,9 @@ select:-webkit-autofill:focus {
 @media screen and (max-width:400px) {
     .contact-infos {
         font-size: 3rem;
+    }
+    .s-contact li a {
+        font-size: 2rem;
     }
 }
 
