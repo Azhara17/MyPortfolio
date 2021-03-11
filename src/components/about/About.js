@@ -4,11 +4,11 @@ export default class About extends Component {
     return (
       <React.Fragment>
       <div id="about" className="s-about target-section">
-      <section >
+     
           <div className="about-me">
-            <div className="row heading-block" >
+            <div className="heading-block" >
               <div className="column large-full">
-                <h2 className="section-heading">About Me</h2>
+                <h2 className="section-heading section-heading--centerbottom">About Me</h2>
               </div>
             </div>
             <div className="row about-me__content" >
@@ -21,7 +21,7 @@ export default class About extends Component {
             </div> 
             </div>
           
-        </section>
+       
         </div>
       </React.Fragment>
     );

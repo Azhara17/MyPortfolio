@@ -184,9 +184,6 @@ p.lead {
     p.lead {
         font-size: 2.2rem;
     }
-}
-
-@media screen and (max-width:1200px) {
     .azhara {
         display: block;
         margin-left: auto;
@@ -490,7 +487,7 @@ select:-webkit-autofill:focus {
     letter-spacing: .5rem;
     margin-top: 0;
     padding-top: 3.2rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
     position: relative;
 }
 
@@ -550,9 +547,10 @@ select:-webkit-autofill:focus {
 }
 
 @media screen and (max-width:1024px) {
-    .heading-block {
-        max-width: 800px;
-    }
+    /*.heading-block {
+        width: 800px;
+        padding-left: 13%;
+    }*/
     .section-desc {
         font-size: 4.8rem;
     }
@@ -644,6 +642,7 @@ select:-webkit-autofill:focus {
     margin: 0 0 0 0;
     z-index: 2;
     position: static;
+    margin-left: -9rem;
 }
 
 .header-main-nav li {
@@ -705,6 +704,7 @@ select:-webkit-autofill:focus {
 @media screen and (max-width:1200px) {
     .header-main-nav {
         font-size: 12px;
+        margin-left: 14%;
     }
     .header-main-nav li {
         margin: 0 1.4rem;
@@ -737,18 +737,20 @@ select:-webkit-autofill:focus {
         background-color: #b46060f3;
         padding: 15px 0 10px;
         z-index: 4000;
+        margin-left: 0;
     }
     .header-nav-wrap .header-main-nav {
         display: none;
         padding-left: 0;
         height: auto;
+        margin: 0;
         /*border-top: 1px solid rgba(255, 255, 255, 0.05);*/
     }
     .header-nav-wrap .header-main-nav li {
         display: block;
         margin: 0;
         padding: 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        /* border-bottom: 1px solid rgba(255, 255, 255, 0.05);*/
     }
     .header-nav-wrap .header-main-nav li a {
         padding: 18px 0;
@@ -1015,14 +1017,12 @@ select:-webkit-autofill:focus {
 
 .s-about {
     margin-top: 97rem;
-    padding-top: 19rem;
-    padding-bottom: 16rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
     background-color: #ffffff;
-}
-
-.s-about .row {
-    max-width: 1140px;
-    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .s-about>[class*="about-"] {
@@ -1034,22 +1034,11 @@ select:-webkit-autofill:focus {
 }
 
 .about-me__text {
-    -webkit-columns: 2 360px;
-    -moz-columns: 2 360px;
-    columns: 2 360px;
-    column-gap: 64px;
-}
-
-.about-me__buttons {
-    margin-top: 4.8rem;
-}
-
-.about-me__buttons .column:first-child {
-    padding-right: 32px;
-}
-
-.about-me__buttons .column:last-child {
-    padding-left: 32px;
+    -webkit-columns: 2 3600px;
+    -moz-columns: 2 3600px;
+    columns: 2 3600px;
+    column-gap: 40px;
+    text-align: center;
 }
 
 
@@ -1194,8 +1183,11 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:1200px) {
     .s-about {
-        margin-top: 1024px;
+        margin-top: 1366px;
         padding-bottom: 15.6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     .about-experience__timeline .column:first-child {
         padding-right: 30px;
@@ -1215,92 +1207,57 @@ select:-webkit-autofill:focus {
     .timeline__header h5 {
         font-size: 1.8rem;
     }
+    .about-me__text {
+        max-width: 800px;
+    }
+    .s-about .about-me__text {
+        margin-left: 5rem;
+    }
 }
 
 @media screen and (max-width:1024px) {
+    .s-about {
+        margin-top: 1050px;
+        margin-bottom: 10px;
+        /*display: flex;
+        flex-direction: row;
+        justify-content: center;*/
+    }
     .about-me__text {
-        column-gap: 40px;
+        column-gap: 30px;
+        font-size: 1.5rem;
+        max-width: 600px;
     }
-    .about-me__buttons .column:first-child {
-        padding-right: 20px;
-    }
-    .about-me__buttons .column:last-child {
-        padding-left: 20px;
-    }
-    .about-experience__timeline .column:first-child {
-        padding-right: 16px;
-    }
-    .about-experience__timeline .column:last-child {
-        padding-left: 16px;
-    }
-    .timeline__desc {
-        padding-bottom: 3rem;
+    .s-about .about-me__text {
+        margin-left: 5rem;
     }
 }
 
 @media screen and (max-width:900px) {
     .s-about {
-        padding-top: 10rem;
-    }
-    .s-about .row {
-        max-width: 700px;
-    }
-    .about-me__buttons .column:first-child {
-        padding-right: 16px;
-    }
-    .about-me__buttons .column:last-child {
-        padding-left: 16px;
-    }
-    .about-experience__timeline .column {
-        -webkit-flex: 0 0 100%;
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    .about-experience__timeline .column:first-child {
-        margin-bottom: 9.6rem;
-    }
-    .timeline::after {
-        width: 5.6rem;
-    }
-    .timeline__icon-wrap {
-        left: 5.6rem;
-    }
-    .timeline__block {
-        min-height: 0;
-        padding-left: 5.6rem;
+        padding-top: 2rem;
     }
 }
 
 @media screen and (max-width:800px) {
     .s-about {
         padding-top: 8rem;
+        margin-top: 1024px;
     }
-    .s-about .row {
+    .s-about .about-me__content {
         max-width: 600px;
+    }
+    .s-about .about-me__text {
+        margin-left: 5rem;
     }
 }
 
 @media screen and (max-width:600px) {
-    .s-about .target-section {
-        text-align: center;
-    }
-    .s-about .row {
-        text-align: center;
-        max-width: 420px;
-        margin-left: 0;
-        margin-right: 0;
-    }
     .s-about {
         padding-bottom: 10rem;
     }
-    .about-me__buttons .column:first-child,
-    .about-experience__timeline .column:first-child {
-        padding-right: 10px;
-    }
-    .about-me__buttons .column:last-child,
-    .about-experience__timeline .column:last-child {
-        padding-left: 10px;
+    .s-about .about-me__content {
+        max-width: 420px;
     }
     .timeline::after {
         width: 4.4rem;
@@ -1348,7 +1305,10 @@ select:-webkit-autofill:focus {
         margin-left: 5%;
     }
     .s-about .azhara {
-        margin-left: 7rem;
+        margin-left: 5rem;
+    }
+    .s-about .about-me__text {
+        margin-left: 5rem;
     }
 }
 
@@ -1478,6 +1438,9 @@ select:-webkit-autofill:focus {
     }
     .portfolio-list .item-service__content::before {
         font-size: 5.4rem;
+    }
+    .s-portfolio .section-desc {
+        margin-right: 2.5rem;
     }
 }
 
@@ -1838,6 +1801,10 @@ select:-webkit-autofill:focus {
     .masonry__brick {
         padding: 0;
         margin-bottom: 3.2rem;
+    }
+    .s-resume .heading-block {
+        max-width: 300px;
+        padding-left: -13%;
     }
 }
 

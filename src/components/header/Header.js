@@ -11,7 +11,7 @@ export default class Header extends Component {
       <Container className=" header-nav-wrap header-main-nav">
       <Navbar.Toggle  aria-controls="responsive-navbar-nav " />
       <Navbar.Collapse id="responsive-navbar-nav ">
-      <Nav  className="mr-auto">
+      <Nav>
       <header>
       <nav>
           <ul > 
