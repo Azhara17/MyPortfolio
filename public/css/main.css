@@ -733,7 +733,7 @@ select:-webkit-autofill:focus {
         display: none;
         text-align: left;
         height: auto;
-        width: 100%;
+        max-width: 574px;
         background-color: #b46060f3;
         padding: 15px 0 10px;
         z-index: 4000;
@@ -1025,20 +1025,12 @@ select:-webkit-autofill:focus {
     justify-content: center;
 }
 
-.s-about>[class*="about-"] {
-    margin-bottom: 15.2rem;
-}
-
-.s-about>[class*="about-"]:last-child {
-    margin-bottom: 0;
-}
-
 .about-me__text {
-    -webkit-columns: 2 3600px;
-    -moz-columns: 2 3600px;
-    columns: 2 3600px;
+    -webkit-columns: 2 360px;
+    -moz-columns: 2 360px;
+    columns: 2 360px;
     column-gap: 40px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -1183,8 +1175,8 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:1200px) {
     .s-about {
-        margin-top: 1366px;
-        padding-bottom: 15.6rem;
+        margin-top: 950px;
+        padding-bottom: 13rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1212,16 +1204,14 @@ select:-webkit-autofill:focus {
     }
     .s-about .about-me__text {
         margin-left: 5rem;
+        text-align: center;
     }
 }
 
 @media screen and (max-width:1024px) {
     .s-about {
-        margin-top: 1050px;
+        margin-top: 1366px;
         margin-bottom: 10px;
-        /*display: flex;
-        flex-direction: row;
-        justify-content: center;*/
     }
     .about-me__text {
         column-gap: 30px;
@@ -1237,6 +1227,10 @@ select:-webkit-autofill:focus {
     .s-about {
         padding-top: 2rem;
     }
+    .azhara {
+        width: 180px;
+        height: 180px;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -1249,6 +1243,7 @@ select:-webkit-autofill:focus {
     }
     .s-about .about-me__text {
         margin-left: 5rem;
+        text-align: center;
     }
 }
 
@@ -1274,22 +1269,15 @@ select:-webkit-autofill:focus {
     .timeline__header h5 {
         font-size: 1.8rem;
     }
+    .s-about .about-me__text {
+        margin-left: 0;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:400px) {
-    .s-about>[class*="about-"] {
-        margin-bottom: 14rem;
-    }
     .s-about {
         margin-top: 812px;
-    }
-    .about-me__buttons .column:first-child,
-    .about-experience__timeline .column:first-child {
-        padding-right: 0;
-    }
-    .about-me__buttons .column:last-child,
-    .about-experience__timeline .column:last-child {
-        padding-left: 0;
     }
     .timeline::after {
         width: 2.8rem;
@@ -1308,7 +1296,7 @@ select:-webkit-autofill:focus {
         margin-left: 5rem;
     }
     .s-about .about-me__text {
-        margin-left: 5rem;
+        text-align: center;
     }
 }
 
