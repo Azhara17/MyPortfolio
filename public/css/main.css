@@ -1273,7 +1273,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:400px) {
     .s-about {
-        padding-top: 3rem;
+        padding-top: 1rem;
     }
     .timeline::after {
         width: 2.8rem;
@@ -1778,14 +1778,17 @@ select:-webkit-autofill:focus {
 }
 
 @media screen and (max-width:400px) {
+    .s-resume {
+        padding-top: 3rem;
+    }
     .masonry__brick {
         padding: 0;
         margin-bottom: 3.2rem;
     }
-    .s-resume .heading-block {
+    /* .s-resume .heading-block {
         max-width: 300px;
-        padding-left: -13%;
-    }
+        padding-left: -14%;
+    }*/
 }
 
 
