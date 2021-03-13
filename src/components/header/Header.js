@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 
+
 export default class Header extends Component {
 
   render() {
@@ -11,7 +12,8 @@ export default class Header extends Component {
       <Container className=" header-nav-wrap header-main-nav">
       <Navbar.Toggle  aria-controls="responsive-navbar-nav " />
       <Navbar.Collapse id="responsive-navbar-nav ">
-      <Nav>
+      
+      <Nav className="mr-auto">
       <header>
       <nav>
           <ul > 
