@@ -1208,6 +1208,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:1024px) {
     .s-about {
+        margin-top: 1366px;
         margin-bottom: 10px;
     }
     .about-me__text {
@@ -1232,6 +1233,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:800px) {
     .s-about {
+        margin-top: 1024px;
         padding-top: 8rem;
     }
     .s-about .about-me__content {
@@ -1273,7 +1275,8 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:400px) {
     .s-about {
-        padding-top: 1rem;
+        margin-top: 812px;
+        padding-top: 5rem;
     }
     .timeline::after {
         width: 2.8rem;
@@ -1816,15 +1819,16 @@ select:-webkit-autofill:focus {
 }
 
 .s-contact .email-me {
-    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     color: #1b7a9f;
     text-decoration: none;
 }
 
 .s-contact .contact-email a {
-    font-family: "Roboto", sans-serif;
+    font-family: "Frank Ruhl Libre", serif;
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1;
     margin: 2rem 0 8rem;
     color: #1b7a9f;
