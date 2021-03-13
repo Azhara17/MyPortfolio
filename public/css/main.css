@@ -812,7 +812,7 @@ select:-webkit-autofill:focus {
     width: 100%;
     height: 100vh;
     background-color: #4082a191;
-    min-height: 970px;
+    min-height: 812px;
     z-index: 3000;
 }
 
@@ -1028,7 +1028,7 @@ select:-webkit-autofill:focus {
     -webkit-columns: 2 360px;
     -moz-columns: 2 360px;
     columns: 2 360px;
-    column-gap: 40px;
+    /*column-gap: 40px;*/
     text-align: left;
 }
 
@@ -1247,6 +1247,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:600px) {
     .s-about {
+        padding-top: 1rem;
         padding-bottom: 6rem;
     }
     .s-about .about-me__content {
@@ -1275,8 +1276,8 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:400px) {
     .s-about {
-        margin-top: 812px;
-        padding-top: 5rem;
+        margin-top: 850px;
+        padding-top: 8rem;
     }
     .timeline::after {
         width: 2.8rem;
