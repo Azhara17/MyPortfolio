@@ -15,7 +15,7 @@ export default class About extends Component {
               <div className="column large-full about-me__text">
               <img src="/images/Azhara.png" alt="Azhara's picture" className="azhara"  />
                 <p className="lead">
-                  Hi! I am Azhara Kalbaeva, self-taught <strong><em>Front-End Developer</em></strong>  passionate about sleek and functional design in everything around me. I live in an amazing city Dubai. In spare time love drawing seamless patterns and creating architectural 3D visualizations.
+                  Hi! I am Azhara Kalbaeva, self-taught <strong><em>Front-End Developer</em></strong>  passionate about sleek and functional design in everything around me. In spare time love drawing seamless patterns and creating architectural 3D visualizations.
                 </p>
               </div>
             </div> 

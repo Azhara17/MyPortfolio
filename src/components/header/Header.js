@@ -43,7 +43,7 @@ export default class Header extends Component {
                 </h1>
                 <h3>Front-End <br />
                  Web Developer <br />
-                  Based In Dubai.</h3>
+                </h3>
               </div>
               <div className="intro-scroll">
                 <a href="#about" className="intro-scroll-link smoothscroll">
