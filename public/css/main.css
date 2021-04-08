@@ -1247,6 +1247,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:600px) {
     .s-about {
+        margin-top: 900px;
         padding-top: 1rem;
         padding-bottom: 6rem;
     }
@@ -1276,7 +1277,7 @@ select:-webkit-autofill:focus {
 
 @media screen and (max-width:400px) {
     .s-about {
-        margin-top: 850px;
+        margin-top: 900px;
         padding-top: 8rem;
     }
     .timeline::after {
